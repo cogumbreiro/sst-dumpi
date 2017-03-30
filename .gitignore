@@ -16,6 +16,10 @@ Makefile.in
 /install-sh
 /missing
 /stamp-h1
+/config.status
+/config.log
+
+Makefile
 
 autom4te.cache
 acinclude/libtool.m4
@@ -38,4 +42,15 @@ bin/compile
 tests/reference/upd
 dumpi/dumpiconfig-generated.h.in
 dumpi/dumpiconfig-generated.h.in~
+
+*.o
+*.lo
+*.la
+.deps
+.libs
+/dumpi/libundumpi/target/
+/dumpi/dumpiconfig-generated.h
+/docs/doxygen.cfg
+/dumpi/stamp-h1
+/libtool
 
